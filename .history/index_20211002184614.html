@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0036)https://techmi.website/staging/snzk/ -->
 <html lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- CSS、スクリプト -->
-    <link
-      rel="stylesheet"
-      href="./株式会社 園崎組_files/style.css"
-      media="screen"
-    />
-    <script src="./株式会社 園崎組_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
-      src="./株式会社 園崎組_files/b8b46f4330.js"
+      src="https://kit.fontawesome.com/b8b46f4330.js"
       crossorigin="anonymous"
     ></script>
     <style media="all" id="fa-v4-font-face">
@@ -6495,13 +6490,19 @@
         font-weight: 900;
       }
     </style>
-    <script src="./株式会社 園崎組_files/jquery.binarytransport.js"></script>
+    <script src="./scripts/jquery.binarytransport.js"></script>
 
     <!-- フォント -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-    <link href="./株式会社 園崎組_files/css2" rel="stylesheet" />
-    <link href="./株式会社 園崎組_files/css2(1)" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- SEO -->
     <title>株式会社 園崎組</title>
     <meta
@@ -6521,14 +6522,14 @@
     <!-- ヘッダー・ナビゲーション -->
     <header class="">
       <div class="width-restriction">
-        <div class="header-container">
+        <div class="header-continer">
           <input type="checkbox" class="nav-ham sp-only" />
           <i class="fas fa-bars sp-only" aria-hidden="true"></i>
           <div class="logo-image"></div>
           <nav class="menu-container">
             <i class="fas fa-times sp-only" aria-hidden="true"></i>
             <div class="logo-image logo-image-white menu-image sp-only"></div>
-            <a class="link-menu link-top" data-to="body">
+            <a class="link-menu" data-to="body">
               <div class="menu-wrapper">
                 <p class="menu-ja" style="color: white">トップ</p>
                 <p class="menu-en" style="color: white">TOP</p>
@@ -6540,8 +6541,8 @@
                 <p class="menu-ja" style="color: white">事業内容</p>
                 <p class="menu-en" style="color: white">SERVICES</p>
               </div>
+              <div class="skewed-link pc-only"></div>
             </a>
-            <div class="skewed-line pc-only"></div>
             <a class="link-menu link-about" data-to="#about">
               <div class="menu-wrapper">
                 <p class="menu-ja" style="color: white">園崎組について</p>
@@ -6556,17 +6557,17 @@
               </div>
             </a>
             <div class="skewed-line pc-only"></div>
-            <a class="link-menu link-recruit" data-to="#recruit">
+            <a class="link-menu link-ricruit" data-to="#recrute">
               <div class="menu-wrapper">
                 <p class="menu-ja" style="color: white">採用情報</p>
                 <p class="menu-en" style="color: white">RECRUIT</p>
               </div>
             </a>
             <div class="skewed-line pc-only"></div>
-            <a class="link-menu link-contact" data-to="#contact">
+            <a class="link-menu link-content" data-to="#contacts">
               <div class="menu-wrapper">
                 <p class="menu-ja" style="color: white">お問い合わせ</p>
-                <p class="menu-en" style="color: white">CONTACT</p>
+                <p class="menu-en" style="color: white"></p>
               </div>
             </a>
           </nav>
@@ -6581,31 +6582,30 @@
       <div
         id="top-image"
         class="top-image"
-        style="
-          opacity: 0.933535;
-          background-image: url('./images/top-image-1.png');
-        "
+        style="opacity: 1; background-image: url('./images/top-image-1.png')"
       ></div>
       <div class="width-restriction-inside">
         <p class="top-en">
-          CHALLENGE<br />FROM<br class="sp-only" />
+          CHALLENGE
+          <br />
+          FROM
+          <br class="sp-only" />
           THE BOTTOM
         </p>
-
         <div class="top-ja-box" id="top-ja-box1">
           <p class="top-ja">社会の基礎を支え</p>
         </div>
         <div class="top-ja-box" id="top-ja-box2">
-          <p class="top-ja">基礎から世界を変革する会社</p>
+          <div class="top-j">基礎から世界を変革する会社</div>
         </div>
         <div class="news-container">
-          <div id="news-head">
+          <id id="news-head">
             <span>NEWS</span>
             <div class="news-head-skew sp-only"></div>
-          </div>
+          </id>
           <div class="news-content">
-            <div id="news-date" class="news-elm">
-              <span>2021.06.12</span>
+            <div class="news-elm" id="news-date">
+              <span>2021.10.02</span>
             </div>
             <div id="news-category" class="news-elm">
               <span>お知らせ</span>
@@ -6615,40 +6615,38 @@
             </div>
           </div>
           <div class="news-foot pc-only">
-            <a href="#">⇀</a>
+            <a href="#"></a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- 事業内容 -->
-
     <section id="services" class="fade-in fade-in-up scroll-in">
       <div class="services-bg"></div>
       <div class="services-bg-white"></div>
 
       <div class="width-restriction">
-        <div id="services-container">
+        <div class="services-container">
           <img
             src="images/images-services.jpg"
             alt="園崎組の事業"
             id="services-image"
           />
-          <div id="services-content" class="width-restriction-inside">
+          <div id="service-content" class="width-restriction-inside">
             <div class="content-title">
               <span class="content-en">SERVICES</span>
               <div class="skewed-line"></div>
               <span class="content-ja">事業内容</span>
             </div>
-            <div id="service-text">
+            <div class="service-text">
               <h2>
                 人々の生活基盤を<br />
                 世界最高峰の技術で支える
               </h2>
               <p>
-                私達のモットーは、 「社会基盤から世界をより良くする」こと。<br
-                  class="pc-only"
-                />
+                私達のモットーは、 「社会基盤から世界をより良くする」こと。
+                <br class="pc-only" />
                 そのために最前線で国家規模のプロフェクトに参画することもあれば、
                 世界各国の技術者、研究者と共に次世代の建設機材の研究開発事業も
                 同時に行うことで、業界の進化の促進を担っています。
@@ -6665,18 +6663,17 @@
     </section>
 
     <!-- 園崎組について -->
-
     <section id="about" class="fade-in fade-in-up scroll-in">
       <div class="width-restriction-inside">
         <img
           src="images/image-about-sp.jpg"
           alt="園崎組"
           id="sp-about-image"
-          class="sp-only"
+          dlass="sp-Only"
         />
         <div class="about-container">
           <div class="content-title">
-            <span class="content-en">ABOUT</span>
+            <span class="contetnt-en">ABOUT</span>
             <div class="skewed-line"></div>
             <span class="content-ja">園崎組について</span>
           </div>
@@ -6703,7 +6700,6 @@
     </section>
 
     <!-- 園崎組の実績 -->
-
     <section id="works" class="fade-in fade-in-up scroll-in">
       <div id="works-bg-white"></div>
       <div class="width-restriction-inside">
@@ -6714,24 +6710,24 @@
             <span class="content-ja">園崎組の実績</span>
           </div>
           <h2>
-            社会を基礎から、<br class="sp-only" />変革してきたプロジェクト
+            社会を基礎から、
+            <br class="sp-only" />
+            変革してきたプロジェクト
           </h2>
           <p>
-            創業以來より培われた確かな技術力で社会を変革する様々な案件を手掛けてきました。<br
-              class="pc-only"
-            />
+            創業以來より培われた確かな技術力で社会を変革する様々な案件を手掛けてきました。
+            <br class="pc-only" />
             その一部を紹介させていただきます。
           </p>
         </div>
       </div>
-
       <div class="works-container">
         <div class="works-wrapper fade-in fade-in-up scroll-in">
           <div class="works-number">01</div>
           <img
-            class="works-image"
             src="images/image-works-1.jpg"
             alt="施工実績"
+            class="works-image"
           />
           <div class="works-text">
             <h3>施工実績</h3>
@@ -6743,27 +6739,25 @@
         <div class="works-wrapper fade-in fade-in-up scroll-in">
           <div class="works-number">02</div>
           <img
-            class="works-image"
             src="images/image-works-2.jpg"
             alt="商品納入実績"
+            class="works-image"
           />
-          <div class="works-text">
-            <h3>商品納入実績</h3>
-            <p>
-              土木・建設資材のプロフェッショナルとして、現場で必要となる各種資材を提供しています。
-            </p>
-          </div>
+        </div>
+        <div class="works-text">
+          <h3>商品納入実績</h3>
+          <p>
+            土木・建設資材のプロフェッショナルとして、現場で必要となる各種資材を提供しています。
+          </p>
         </div>
       </div>
-
       <a href="#">
-        <div class="link-button">実績一覧を見る　⇀</div>
+        <div class="link-button">実積一覧を見る　⇀</div>
       </a>
     </section>
 
     <!-- 採用情報 -->
-
-    <section id="recruit" class="fade-in fade-in-up scroll-in">
+    <section class="recrute" id="fade-in fade-in-up scroll-in">
       <div class="recruit-description width-restriction-inside">
         <div class="content-title">
           <span class="content-en">RECRUIT</span>
@@ -6772,7 +6766,7 @@
         </div>
       </div>
       <div class="recruit-container">
-        <div class="recruit-wrapper fade-in fade-in-up scroll-in">
+        <div class="recrute-wrapper fade-in fade-in-up scroll-in">
           <a href="#">
             <img
               src="images/image-recruit-1-sp.jpg"
@@ -6785,12 +6779,12 @@
               class="pc-only"
             />
             <div class="recruit-button">
-              <span class="link-button-text"> 園崎組を知る </span>
+              <span class="link-button-text">園崎</span>
               <span class="link-button-arrow"> ⇀ </span>
             </div>
           </a>
         </div>
-        <div class="recruit-wrapper fade-in fade-in-up scroll-in">
+        <div class="recrute-wrapper fade-in fade-in-up scroll-in">
           <a href="#">
             <img
               src="images/image-recruit-2-sp.jpg"
@@ -6803,12 +6797,12 @@
               class="pc-only"
             />
             <div class="recruit-button">
-              <span class="link-button-text"> 園崎組の一日 </span>
+              <span class="link-button-text">園崎組の一日</span>
               <span class="link-button-arrow"> ⇀ </span>
             </div>
           </a>
         </div>
-        <div class="recruit-wrapper fade-in fade-in-up scroll-in">
+        <div class="recrute-wrapper fade-in fade-in-up scroll-in">
           <a href="#">
             <img
               src="images/image-recruit-3-sp.jpg"
@@ -6821,14 +6815,14 @@
               class="pc-only"
             />
             <div class="recruit-button">
-              <span class="link-button-text"> 求める人物像 </span>
+              <span class="link-button-text">求める人物像</span>
               <span class="link-button-arrow"> ⇀ </span>
             </div>
           </a>
         </div>
       </div>
       <div class="link-button-bg">
-        <a href=>
+        <a href>
           <div class="link-button">エントリーはこちら　⇀</div>
         </a>
       </div>
@@ -6836,12 +6830,12 @@
 
     <!-- お問い合わせ -->
 
-    <section id="contact">
+    <section class="contact">
       <div class="width-restriction-inside fade-in fade-in-up scroll-in">
         <div class="content-title">
           <span class="content-en">CONTACT</span>
           <div class="skewed-line"></div>
-          <span class="content-ja">お問い合わせ</span>
+          <div class="content-ja">お問い合わせ</div>
         </div>
         <p>
           園崎組では一般的な施工から特注部品、機械の開発・製造まで一貫して対応しております。<br
@@ -6849,23 +6843,17 @@
           />
           お気軽にご連絡ください。
         </p>
-        <div class="contact-button-container">
+        <div class="content-button-container">
           <a href="#">
             <div class="link-button red-button">
-              <img
-                src="images/Backhoe.svg"
-                alt="バックホーアイコン"
-              />
+              <img src="images/Backhoe.svg" alt="バックホーアイコン" />
               <span class="link-button-text">施工のご相談</span>
               <span class="link-button-arrow">⇀</span>
             </div>
           </a>
           <a href="#">
             <div class="link-button black-button">
-              <img
-                src="images/Factory.svg"
-                alt="工場アイコン"
-              />
+              <img src="images/Factory.svg" alt="工場アイコン" />
               <span class="link-button-text">受注制作のご相談</span>
               <span class="link-button-arrow">⇀</span>
             </div>
@@ -6890,213 +6878,13 @@
             </p>
           </div>
           <ul>
-            <li><a class="link-menu" data-to="body">トップ</a></li>
-            <li><a class="link-menu" data-to="#services">事業内容</a></li>
-            <li><a class="link-menu" data-to="#about">園崎組について</a></li>
-            <li><a class="link-menu" data-to="#works">園崎組の実績</a></li>
-            <li><a class="link-menu" data-to="#recruit">採用</a></li>
-            <li><a class="link-menu" data-to="#contact">お問い合わせ</a></li>
+            <li>
+              <a class="link-menu" data-to="top"></a>
+            </li>
           </ul>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="width-restriction-inside">
-          <span> Copyright © SONOZAKI CO.LTD All Rights Reserved. </span>
-        </div>
-      </div>
+      <div class="footer-copyright"></div>
     </footer>
-    <script>
-      //ナビゲーションメニュー内のリンククリックでナビゲーションメニューを閉じる処理
-      $(".menu-container .link-menu").on("click", function (event) {
-        $(".nav-ham").trigger("click");
-      });
-      //メニュークリック時のスクロールアニメーション
-      $(".link-menu").click(function () {
-        let link = $(this).data("to");
-        let position = $(link).offset().top - 130;
-        let speed = 400;
-        $("html,body").animate({ scrollTop: position }, speed);
-      });
-
-      //トップイメージ
-      let top_images_pc_url = new Array(
-        "url('./images/top-image-1.png')",
-        "url('./images/top-image-2.png')",
-        "url('./images/top-image-3.png')"
-      );
-      let top_images_pc = new Array(
-        "./images/top-image-1.png",
-        "./images/top-image-2.png",
-        "./images/top-image-3.png"
-      );
-      let top_images_sp_url = new Array(
-        "url('./images/top-image-1-sp.png')",
-        "url('./images/top-image-2-sp.png')",
-        "url('./images/top-image-3-sp.png')"
-      );
-      let top_images_sp = new Array(
-        "./images/top-image-1-sp.png",
-        "./images/top-image-2-sp.png",
-        "./images/top-image-3-sp.png"
-      );
-
-      let num = -1;
-      slideshow_timer();
-
-      //トップイメージプリロード
-      for (i = 0; i < top_images_pc.length; i++) {
-        let img = document.createElement("img");
-        img.src = top_images_pc[i];
-        img.src = top_images_sp[i];
-      }
-
-      //トップイメージスライドショー
-      function slideshow_timer() {
-        if (num == 2) {
-          num = 0;
-        } else {
-          num++;
-        }
-        if ($(window).width() < 768) {
-          $("#top-image")
-            .stop()
-            .animate({ opacity: 0 }, 500, function () {
-              $(this)
-                .css({ "background-image": top_images_sp_url[num] })
-                .animate({ opacity: 1 }, { duration: 500 });
-            });
-        } else {
-          $("#top-image")
-            .stop()
-            .animate({ opacity: 0 }, 500, function () {
-              $(this)
-                .css({ "background-image": top_images_pc_url[num] })
-                .animate({ opacity: 1 }, { duration: 500 });
-            });
-        }
-        setTimeout("slideshow_timer()", 5000);
-      }
-
-      //ウィンドウリサイズ時のトップイメージSP⇔PC切り替え
-      $(window).resize(function () {
-        if ($(window).width() < 768) {
-          $("#top-image").css("background-image", top_images_sp_url[num]);
-        } else {
-          $("#top-image").css("background-image", top_images_pc_url[num]);
-        }
-      });
-
-      //ナビゲーションメニューの文字色変更
-      $(window).on("scroll", function () {
-        let pos_y = $(window).scrollTop();
-        let sections = new Array(
-          "body",
-          "#services",
-          "#about",
-          "#works",
-          "#recruit",
-          "#contact",
-          "footer"
-        );
-        let menu_links = new Array(
-          ".link-top",
-          ".link-services",
-          ".link-about",
-          ".link-works",
-          ".link-recruit",
-          ".link-contact"
-        );
-        let offset = 250;
-        for (i = 0; i < sections.length - 1; i++) {
-          if ($(window).width() < 1024) {
-            if (
-              pos_y >= $(sections[i]).offset().top - offset &&
-              pos_y < $(sections[i + 1]).offset().top - offset
-            ) {
-              $(menu_links[i])
-                .children(".menu-wrapper")
-                .children("p")
-                .css("color", "#191919");
-            } else {
-              $(menu_links[i])
-                .children(".menu-wrapper")
-                .children("p")
-                .css("color", "white");
-            }
-          } else {
-            $(menu_links[i])
-              .children(".menu-wrapper")
-              .children("p")
-              .css("color", "white");
-          }
-        }
-      });
-      $(window).resize(function () {
-        if ($(window).width() < 1024) {
-          let menu_links = new Array(
-            ".link-top",
-            ".link-services",
-            ".link-about",
-            ".link-works",
-            ".link-recruit",
-            ".link-contact"
-          );
-          for (i = 0; i < menu_links.length; i++) {
-            $(menu_links[i])
-              .children(".menu-wrapper")
-              .children("p")
-              .css("color", "white");
-          }
-        }
-      });
-
-      //フェードインアニメーション
-      jQuery(function ($) {
-        let fadeIn = $(".fade-in");
-        $(window).on("scroll", function () {
-          $(fadeIn).each(function () {
-            let offset = $(this).offset().top;
-            let scroll = $(window).scrollTop();
-            let windowHeight = $(window).height();
-            if (scroll > offset - windowHeight + 150) {
-              $(this).addClass("scroll-in");
-            }
-          });
-        });
-        $(window).on("load", function () {
-          $(fadeIn).each(function () {
-            let offset = $(this).offset().top;
-            let scroll = $(window).scrollTop();
-            let windowHeight = $(window).height();
-            if (scroll > offset - windowHeight + 150) {
-              $(this).addClass("scroll-in");
-            }
-          });
-        });
-      });
-      //ローディングアニメーションのクローズ
-      window.onload = function () {
-        const spinner = document.getElementById("loading");
-        spinner.classList.add("loaded");
-      };
-
-      //メニュー出現
-      $(function () {
-        $(window).on("scroll", function () {
-          if ($(this).scrollTop() > $("#services").offset().top - 300) {
-            $("header").addClass("header-fixed");
-          } else {
-            $("header").removeClass("header-fixed");
-          }
-        });
-        $(window).on("load", function () {
-          if ($(this).scrollTop() > $("#services").offset().top - 300) {
-            $("header").addClass("header-fixed");
-          } else {
-            $("header").removeClass("header-fixed");
-          }
-        });
-      });
-    </script>
   </body>
 </html>
