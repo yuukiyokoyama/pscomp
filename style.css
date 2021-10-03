@@ -654,5 +654,83 @@ a:hover {
   #works a .link-button {
     margin: auto;
   }
+  #recruit .recruit-description .content-title {
+    margin: 0 auto 0;
+    padding: 0;
+  }
+  #recruit .recruit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 34px auto 0;
+    position: relative;
+  }
+  #recruit .recruit-container .recruit-wrapper {
+    margin-bottom: -5px;
+    padding: 0;
+    position: relative;
+  }
+  #recruit .recruit-container .recruit-wrapper img {
+    width: 100%;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    left: 21px;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button .link-button-text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    opacity: 1;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button .link-button-arrow {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    opacity: 1;
+  }
+  #recruit .link-button-bg {
+    background-color: #f0f0f0;
+    height: 204px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 80px;
+  }
+  #recruit .link-button-bg a {
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #recruit .link-button-bg a .link-button {
+    margin: 40px auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

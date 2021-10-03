@@ -680,79 +680,11 @@ a:hover {
         }
     }
 
-    #recruit{
-        .recruit-description{
+    #recruit {
+        .recruit-description {
             .content-title{
                 margin: 0 auto 0;
                 padding: 0;
-            }
-        }
-
-        .recruit-container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 34px auto 0;
-            position: relative;
-
-            .recruit-wrapper {
-                margin-bottom: -5px;
-                padding: 0;
-                position: relative;
-
-                img {
-                    width: 100%;
-                }
-
-                .recruit-button {
-                    display: flex; 
-                    position: absolute;
-                    bottom: 16px;
-                    left: 21px;
-
-                    .link-button-text {
-                        font-family: $ja-font;
-                        font-size: 16px;
-                        font-weight: normal;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1;
-                        letter-spacing: normal;
-                        text-align: left;
-                        color: #ffffff;
-                        opacity: 1;
-                    }
-
-                    .link-button-arrow{
-                        font-family: $ja-font;
-                        font-size: 20px;
-                        font-weight: normal;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1;
-                        letter-spacing: normal;
-                        text-align: left;
-                        color: #ffffff;
-                        opacity: 1;
-                    }
-                }
-            }
-        }
-
-        .link-button-bg {
-            background-color: #f0f0f0;
-            height: 204px;
-            display: flex;
-            justify-content: center;
-            line-height: 80px;
-            
-            a {
-                height: 40px;
-                display: flex;
-
-                .link-button {
-                    margin: 40px auto;
-                }
             }
         }
     }
