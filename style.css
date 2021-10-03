@@ -885,4 +885,96 @@ a:hover {
     color: #ffffff;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .pc-only {
+    display: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  width-restriction-inside {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: calc(100% - 80px);
+  }
+  .menu-ja {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .menu-en {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .skewed-line {
+    width: 15px;
+    height: 17px;
+    margin: 0 0 5px 20px;
+    border-left: solid 1px white;
+    -webkit-transform: skew(-41.5deg);
+            transform: skew(-41.5deg);
+  }
+  a {
+    display: block;
+  }
+  a .link-button {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0 auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 2px 4px 0 rgba(24, 40, 72, 0.46);
+            box-shadow: 0px 2px 4px 0 rgba(24, 40, 72, 0.46);
+    background-color: #4b6cb7;
+    width: 256px;
+    height: 44px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  a .link-button span {
+    display: table-cell;
+  }
+  header .header-container {
+    height: 80px;
+  }
+  header .header-container .logo-image {
+    width: 136px;
+    height: 29px;
+    margin: 25px 0 0 30px;
+    background-size: cover;
+  }
+  header .header-container .fas {
+    right: 30px;
+    top: 30px;
+    font-size: 24px;
+  }
+  header .header-container .nav-ham {
+    width: 80px;
+    height: 80px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
