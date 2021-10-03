@@ -113,7 +113,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #333;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -1181,64 +1181,9 @@ a:hover {
                 background-color: white;
                 transform: skew(-41.5deg);
                 width: 100%;
-                padding-left: 40px;
-                height: 64px; 
-
-                .news-elm {
-                    transform: skew(41.5deg);
-                    span {
-                        color: block;
-                    }
-                }
-
-                #news-date{
-                    span{
-                        font-family: $ja-font;
-                        font-size: 16px;
-                        font-weight: normal;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1;
-                        letter-spacing: normal;
-                        text-align: left;
-                        color: #191919;
-                    }
-                }
-
-                #news-category{
-                    padding: 8px 16px 8px 17px;
-                    border-radius: 6px;
-                    background-color: #b8614b;
-                    margin: 0 24px;
-                }
-
-                #news-title{
-                    margin-left: 0px;
-                    font-family: $ja-font;
-                    font-size: 16px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1;
-                    letter-spacing: normal;
-                    text-align: left;
-                    color: #191919;
-                }
+                
             }
 
-            .news-foot{
-                margin-right: 0;
-                width: 100px;
-                margin-left: auto;
-                margin-right: 30px;
-                font-size: 24px;
-                color: white;
-                text-align: right;
-            }
-
-            .pc-only {
-                display: block;
-            }
         }
     }
 }

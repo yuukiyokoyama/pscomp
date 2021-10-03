@@ -113,7 +113,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #333;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -1235,10 +1235,7 @@ a:hover {
                 color: white;
                 text-align: right;
             }
-
-            .pc-only {
-                display: block;
-            }
+            
         }
     }
 }
