@@ -280,5 +280,70 @@ a:hover {
   .header-fixed .header-container .fa-bars {
     color: #191919;
   }
+  section {
+    margin-top: 120px;
+  }
+  section .content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 30px;
+  }
+  section .content-title .content-en {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  }
+  section .content-title .content-ja {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4b6cb7;
+  }
+  section .skewed-line {
+    border-color: #4b6cb7;
+  }
+  section h2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 39px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  }
+  section p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #191919;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 42px;
+  }
+  #top-spacing {
+    height: 55px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
