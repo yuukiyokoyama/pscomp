@@ -285,5 +285,12 @@ a:hover {
         }
     }
 
+    section {
+        margin-top: 120px;
 
+        content-title {
+            display: flex;
+            align-items: baseline;
+        }
+    }
 } 

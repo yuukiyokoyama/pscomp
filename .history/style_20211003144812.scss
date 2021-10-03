@@ -256,34 +256,6 @@ a:hover {
             .nav-ham:checked ~ .menu-container {
                 top: 0;
             }
-
-            .fas {
-                position: absolute;
-                right: 20px;
-                top: 18px;
-                font-size: 24px;
-                color: white;
-                line-height: 20px;
-            }
         }
     }
-
-    .header-fixed {
-        position: fixed;
-        transition: 0.3s;
-        background-image: none;
-        background-color: white;
-        color: #191919;
-        
-        .header-container {
-            .logo-image {
-                background-image: url("logo-b.svg");
-            }
-            .fa-bars {
-                color: #191919;
-            }
-        }
-    }
-
-
 } 
