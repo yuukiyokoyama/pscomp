@@ -345,5 +345,161 @@ a:hover {
   #top-spacing {
     height: 55px;
   }
+  #top {
+    background-image: -webkit-gradient(linear, left top, right top, from(#4b6cb7), to(#182848));
+    background-image: linear-gradient(to right, #4b6cb7, #182848);
+    position: relative;
+    height: 611px;
+    width: 100%;
+  }
+  #top .top-image {
+    background-image: url("images/top-image-1-sp.png");
+    background-size: cover;
+    background-position: left-center;
+    height: 611px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #top .top-en {
+    text-shadow: 4.2px 4.2px 4px rgba(24, 40, 72, 0.5);
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.96px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top: 100px;
+    z-index: 10000;
+    margin-left: 5px;
+    white-space: nowrap;
+  }
+  #top .top-ja {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 19.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #182848;
+    -webkit-transform: skew(25.18deg);
+            transform: skew(25.18deg);
+    margin: 9px 12px 9px 12px;
+  }
+  #top .top-ja-box {
+    -webkit-transform: skew(-25.18deg);
+            transform: skew(-25.18deg);
+    position: absolute;
+    background-color: white;
+    -webkit-box-shadow: 4px 2px 0px 0px #182848;
+            box-shadow: 4px 2px 0px 0px #182848;
+  }
+  #top #top-ja-box1 {
+    margin-left: 20px;
+    top: 295px;
+  }
+  #top #top-ja-box2 {
+    margin-left: 20px;
+    top: 350px;
+  }
+  #top .news-container {
+    position: absolute;
+    z-index: 10000;
+    top: 535px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    background-color: #182848;
+    border: solid 1px #182848;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: calc(100% - 40px);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #top .news-container span {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  #top .news-container #news-head {
+    position: absolute;
+    top: -22px;
+    left: -1px;
+    background-color: #182848;
+    padding: 4px 13px 2px;
+  }
+  #top .news-container .news-head-skew {
+    position: absolute;
+    top: 0;
+    right: -6px;
+    width: 12px;
+    height: 100%;
+    -webkit-transform: skew(25.18deg);
+            transform: skew(25.18deg);
+    background-color: #182848;
+  }
+  #top .news-container .news-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    height: 48px;
+  }
+  #top .news-container .news-content .news-elm span {
+    color: black;
+  }
+  #top .news-container .news-content #news-date span {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+    margin: 18px 8px 18px;
+  }
+  #top .news-container .news-content #news-category {
+    padding: 2px 9px;
+    border-radius: 8px;
+    background-color: #b8614b;
+    white-space: nowrap;
+  }
+  #top .news-container .news-content #news-category span {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 12px;
+    color: white;
+  }
+  #top .news-container .news-content #news-title {
+    margin-left: 7px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  }
 }
 /*# sourceMappingURL=style.css.map */
