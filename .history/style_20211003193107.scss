@@ -800,39 +800,6 @@ a:hover {
         .contact-button-container {
             display: flex;
             flex-direction: column;justify-content: center;padding-bottom: 96px;
-
-            .link-button {
-                width: 335px;
-                display: flex;
-                padding-left: 24px;
-                padding-right: 24px;
-
-                img {
-                    vertical-align: top;
-                    margin-right: auto;
-                    width: 16px;
-                }
-
-                .link-button-text{
-                    margin: auto;
-                    text-align:center;
-                }
-
-                .link-button-arrow{
-                    margin-left: auto;
-                    font-size: 20px;
-                }
-            }
-            .red-button{
-                background-color: #b8614b;
-                margin-bottom: 24px;
-            }
-
-            .black-button{
-                background-color: #191919;
-            }
         }
     }
-
-
 }

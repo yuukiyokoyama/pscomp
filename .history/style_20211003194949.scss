@@ -834,5 +834,31 @@ a:hover {
         }
     }
 
+    footer {
+        background-color: $navy;
 
+        p{
+            text-align: left;
+            font-family: $ja-font;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 30px;
+            letter-spacing: 0.32px;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .footer-container {
+            .footer-address {
+                img {
+                    margin-top: 71px;
+                    margin-bottom: 10px;
+                    height: 34px;
+                    width: 159px;
+                }
+            }
+        }
+    } 
 }

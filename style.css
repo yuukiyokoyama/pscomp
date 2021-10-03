@@ -732,5 +732,85 @@ a:hover {
   #recruit .link-button-bg a .link-button {
     margin: 40px auto;
   }
+  #contact {
+    margin-top: 0;
+    background-image: url(images/bckground-image-contact.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  #contact .content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin: 0 auto 24px;
+    padding-top: 80px;
+  }
+  #contact .content-title .content-en {
+    display: inline-block;
+    color: white;
+  }
+  #contact .content-title .skewed-line {
+    display: inline-block;
+    border-color: white;
+  }
+  #contact .content-title .content-ja {
+    display: inline-block;
+    color: white;
+  }
+  #contact p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.32px;
+    color: #ffffff;
+    margin: 24px 0;
+  }
+  #contact .contact-button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 96px;
+  }
+  #contact .contact-button-container .link-button {
+    width: 335px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  #contact .contact-button-container .link-button img {
+    vertical-align: top;
+    margin-right: auto;
+    width: 16px;
+  }
+  #contact .contact-button-container .link-button .link-button-text {
+    margin: auto;
+    text-align: center;
+  }
+  #contact .contact-button-container .link-button .link-button-arrow {
+    margin-left: auto;
+    font-size: 20px;
+  }
+  #contact .contact-button-container .red-button {
+    background-color: #b8614b;
+    margin-bottom: 24px;
+  }
+  #contact .contact-button-container .black-button {
+    background-color: #191919;
+  }
 }
 /*# sourceMappingURL=style.css.map */
