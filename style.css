@@ -812,5 +812,77 @@ a:hover {
   #contact .contact-button-container .black-button {
     background-color: #191919;
   }
+  footer {
+    background-color: #182848;
+  }
+  footer p {
+    text-align: left;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #ffffff;
+  }
+  footer .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 35px;
+  }
+  footer .footer-container .footer-address {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  footer .footer-container .footer-address img {
+    margin-top: 71px;
+    margin-bottom: 10px;
+    height: 34px;
+    width: 159px;
+  }
+  footer .footer-container ul {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 26px;
+    list-style: none;
+  }
+  footer .footer-container ul li {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 38px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  footer .footer-container ul a {
+    color: white;
+  }
+  footer .footer-container ul li:nth-child(4) {
+    margin-bottom: 38px;
+  }
+  footer .footer-copyright {
+    height: 42px;
+    margin-right: 0;
+    background-color: #191919;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 42px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
 }
 /*# sourceMappingURL=style.css.map */
