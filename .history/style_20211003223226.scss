@@ -1267,24 +1267,5 @@ a:hover {
             transform: skew(-41.5deg);
             padding-bottom: 40px;
         }
-        #services-container{
-            position: relative;
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            #services-image{
-                width: 620px;
-                height: 440px;
-                margin-top: 40px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            #services-content{
-                margin-top: 40px;
-                margin-left: 48px;
-            }
-        }
     }
-
-    
 }

@@ -1242,49 +1242,8 @@ a:hover {
         }
     }
 
-    #services {
+    #service {
         position: relative;
         overflow-x: hidden;
-
-        .services-bg {
-            position: absolute;
-            top: -40px;
-            width: 100%;
-            height: 100%;
-            background-color: #f0f0f0;
-            z-index: 1;
-            padding-bottom: 40px;
-        }
-
-        .services-bg-white{
-            position: absolute;
-            top: -40px;
-            right: -20px;
-            width: 360px;
-            height: 100%;
-            background-color: white;
-            z-index:2;
-            transform: skew(-41.5deg);
-            padding-bottom: 40px;
-        }
-        #services-container{
-            position: relative;
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            #services-image{
-                width: 620px;
-                height: 440px;
-                margin-top: 40px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            #services-content{
-                margin-top: 40px;
-                margin-left: 48px;
-            }
-        }
     }
-
-    
 }
