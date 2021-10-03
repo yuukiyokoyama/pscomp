@@ -640,45 +640,7 @@ a:hover {
                     height: calc(100vw * 0.422);
                     object-fit: cover;
                 }
-
-                h3 {
-                    font-family: $ja-font;
-                    font-size: 20px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1;
-                    letter-spacing: normal;
-                    text-align: left;
-                    color: #b8614b;
-                    margin: 20px;
-                }
-
-                p {
-                    font-family: $ja-font;
-                    font-size: 14px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 2;
-                    letter-spacing: 0.32px;
-                    text-align: left;
-                    color: #191919;
-                    margin: 0 10px 40px 20px;
-                }
-            }
-        }
-
-        a {
-            display: block;
-            position: relative;
-            z-index: 100;
-
-            .link-button {
-                margin: auto;
             }
         }
     }
-
-    
 }
