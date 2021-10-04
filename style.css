@@ -1545,5 +1545,91 @@ a:hover {
   #contact .contact-button-container .black-button {
     background-color: #191919;
   }
+  footer {
+    background-color: #182848;
+  }
+  footer img {
+    margin-top: 81px;
+    margin-bottom: 30px;
+    height: 58px;
+    width: 271px;
+  }
+  footer p {
+    text-align: left;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 38px;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #ffffff;
+  }
+  footer .footer-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 106px;
+  }
+  footer .footer-container .pc-only {
+    display: block;
+  }
+  footer .footer-container .footer-address {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  footer .footer-container .footer-address img {
+    margin-top: 85px;
+    margin-bottom: 25px;
+    height: 58px;
+    width: 271px;
+  }
+  footer .footer-container ul {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    list-style: none;
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    margin-left: auto;
+    margin-top: 185px;
+    width: 300px;
+  }
+  footer .footer-container ul li {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 3.2px;
+    color: #ffffff;
+  }
+  footer .footer-container ul a {
+    color: white;
+  }
+  footer .footer-container ul li:nth-child(4) {
+    margin-right: 55px;
+  }
+  footer .footer-copyright {
+    height: 60px;
+    margin-right: 0;
+    background-color: #191919;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
 }
 /*# sourceMappingURL=style.css.map */

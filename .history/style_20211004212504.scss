@@ -1637,43 +1637,7 @@ a:hover {
                 order: 2;
                 list-style: none;
                 writing-mode: vertical-lr;
-                margin-left: auto;
-                margin-top: 185px;
-                width: 300px;
-
-                li{
-                    font-family: $ja-font;
-                    font-size: 16px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 36px;
-                    letter-spacing: 3.2px;
-                    color: #ffffff;
-                }
-
-                a{
-                    color: white;
-                }
-
-                li:nth-child(4){
-                    margin-right: 55px;
-                }
             }
-        }
-
-        .footer-copyright{
-            height: 60px;
-            margin-right: 0;
-            background-color: #191919;
-            font-family: $ja-font;
-            font-size: 12px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 60px;
-            letter-spacing: normal;
-            color: #ffffff;
         }
     }
 }
