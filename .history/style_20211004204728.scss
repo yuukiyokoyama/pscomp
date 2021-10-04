@@ -1463,7 +1463,7 @@ a:hover {
         .recruit-container {
             display: flex;
             justify-content: center;
-            margin: 58px auto 0;
+            margin: 58px auto;
             position: relative;
 
             .recruit-wrapper {
@@ -1494,32 +1494,8 @@ a:hover {
                         line-height: 1;
                         letter-spacing: normal;
                         text-align: left;
-                        color: #ffffff;
-                        margin: 20px auto 20px 17px;
-                        opacity: 1;
-                    }
-
-                    .link-button-arrow{
-                        font-family: $ja-font;
-                        font-size: 20px;
-                        font-weight: normal;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1;
-                        letter-spacing: normal;
-                        text-align: left;
-                        color: #ffffff;
-                        margin: 20px 17px 20px auto;
-                        opacity: 1;
                     }
                 }
-            }
-        }
-
-        a{
-            display: block;
-            .link-button{
-                margin: 0 auto 0px;
             }
         }
     }

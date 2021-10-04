@@ -1405,5 +1405,76 @@ a:hover {
     z-index: 10;
     margin: auto;
   }
+  #recruit {
+    background-color: #f0f0f0;
+    padding-top: 40px;
+  }
+  #recruit .recruit-description .content-title {
+    text-align: center;
+    width: 340px;
+    margin: 0 auto 0;
+  }
+  #recruit .recruit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 58px auto 0;
+    position: relative;
+  }
+  #recruit .recruit-container .recruit-wrapper {
+    position: relative;
+    margin: 0 auto 80px;
+  }
+  #recruit .recruit-container .recruit-wrapper img {
+    width: 624px;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: -24px;
+    right: -8px;
+    width: 264px;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    background: rgba(24, 42, 72, 0.64);
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button .link-button-text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 20px auto 20px 17px;
+    opacity: 1;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button .link-button-arrow {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 20px 17px 20px auto;
+    opacity: 1;
+  }
+  #recruit a {
+    display: block;
+  }
+  #recruit a .link-button {
+    margin: 0 auto 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
