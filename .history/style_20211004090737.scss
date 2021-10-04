@@ -1319,5 +1319,14 @@ a:hover {
         }
     }
 
+    #works {
+        background-color: #f0f0f0;
+        position: relative;
+        overflow: hidden;
 
+        #works-bg-white {
+            background-color: white;
+            width: 1;
+        }
+    }
 }

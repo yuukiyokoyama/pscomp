@@ -1294,30 +1294,5 @@ a:hover {
         background-position: center center;
         position: relative;
         padding-top: 0.1px;
-
-        .about-container {
-            background-color: white;
-            width: 504px;
-            height: 576px;
-            padding: 48px;
-            margin: 40px auto 0;
-            box-sizing: border-box;
-
-            #about-image {
-                margin-top: 32px;
-                width: 408px;
-                height: 120px;
-            }
-        }
-
-        .pc-only{
-            display: block;
-        }
-        
-        .sp-only{
-            display: none;
-        }
     }
-
-
 }

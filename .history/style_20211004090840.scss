@@ -1319,5 +1319,17 @@ a:hover {
         }
     }
 
+    #works {
+        background-color: #f0f0f0;
+        position: relative;
+        overflow: hidden;
 
+        #works-bg-white {
+            background-color: white;
+            width: 100%;
+            transform: skew(41.5deg);
+            height: 100%;
+            position: absolute;
+        }
+    }
 }
