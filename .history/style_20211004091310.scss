@@ -1356,7 +1356,7 @@ a:hover {
                 letter-spacing: normal;
                 color: #191919;
             }
-
+            
             p{
                 display:block;
                 display: center;
@@ -1368,83 +1368,6 @@ a:hover {
                 line-height: 2;
                 letter-spacing: 0.32px;
                 color: #191919;
-            }
-        }
-
-        .works-container{
-            position: relative;
-            z-index: 10;
-            display: flex;
-            margin: 0 auto 0;
-
-            .works-wrapper{
-                position: relative;
-                width: 472px;
-                box-shadow: 0 0 10px 0 rgba(25, 25, 25, 0.25);
-                background-color: #ffffff;
-                margin: 0 auto 40px;
-
-                .works-number{
-                    position: absolute;
-                    left: -16px;
-                    top: -16px;
-                    width: 56px;
-                    height: 56px;
-                    align-items: center;
-                    padding: 15px;
-                    box-sizing: border-box;
-                    text-align: center;
-                    font-family: $en-font;
-                    font-size: 24px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1;
-                    letter-spacing: normal;
-                    text-align: center;
-                    color: #ffffff;
-                    background-color: #182848;
-                }
-
-                .works-image{
-                    width: 472px;
-                    height: 240px;
-                }
-
-                h3{
-                    font-family: $ja-font;
-                    font-size: 24px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1;
-                    letter-spacing: normal;
-                    text-align: left;
-                    color: #b8614b;
-                    margin: 30px 26px 26px;
-                }
-
-                p{
-                    font-family: $ja-font;
-                    font-size: 16px;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 2;
-                    letter-spacing: 0.32px;
-                    text-align: left;
-                    color: #191919;
-                    margin: 0 10px 30px 26px;
-                }
-            }
-        }
-
-        a{
-            display: block;
-            .link-button{
-                position :relative;
-                z-index: 10;
-                margin: auto;
             }
         }
     }
