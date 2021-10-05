@@ -2106,36 +2106,10 @@ a:hover {
             .recruit-wrapper:nth-child(3n+1){
                 margin-top: 80px;
             }
-
+            
             .recruit-wrapper:nth-child(3n+2){
                 margin-top: 40px;
             }
-
-            .recruit-wrapper {
-                position: relative;
-                margin: 0 18px 0;
-                height: 240px;
-
-                img {
-                    width: 312px;
-                    height: 240px;
-                }
-
-                .recruit-button {
-                    display: flex;
-                    position: absolute;
-                    bottom: -24px;
-                    right: -8px;
-                    left: auto;
-                }
-            }
-        }
-
-        .link-button{
-            margin: 0 auto 0px !important;
-        }
-        .link-button-bg{
-            height: 64px;
         }
     }
 }

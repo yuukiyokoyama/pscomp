@@ -2012,5 +2012,58 @@ a:hover {
   #works .works-container .works-wrapper {
     margin: 0 20px 40px;
   }
+  #recruit {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #recruit .recruit-description .content-title {
+    text-align: center;
+    width: 340px;
+    margin: 0 auto 0;
+  }
+  #recruit .recruit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 58px auto 64px;
+    position: relative;
+  }
+  #recruit .recruit-container .recruit-wrapper:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+  #recruit .recruit-container .recruit-wrapper:nth-child(3n+2) {
+    margin-top: 40px;
+  }
+  #recruit .recruit-container .recruit-wrapper {
+    position: relative;
+    margin: 0 18px 0;
+    height: 240px;
+  }
+  #recruit .recruit-container .recruit-wrapper img {
+    width: 312px;
+    height: 240px;
+  }
+  #recruit .recruit-container .recruit-wrapper .recruit-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: -24px;
+    right: -8px;
+    left: auto;
+  }
+  #recruit .link-button {
+    margin: 0 auto 0px !important;
+  }
+  #recruit .link-button-bg {
+    height: 64px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
