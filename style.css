@@ -1974,5 +1974,11 @@ a:hover {
   #services #services-container .link-button {
     margin-left: 0;
   }
+  #about .about-container {
+    margin-left: 0;
+  }
+  #about .about-container .link-button {
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
