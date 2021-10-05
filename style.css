@@ -5,18 +5,75 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -30,8 +87,17 @@ body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -39,13 +105,16 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -76,7 +145,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -96,7 +166,8 @@ hr {
   padding: 0;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -1654,6 +1725,9 @@ a:hover {
   p {
     text-align: center;
   }
+  .width-restriction {
+    max-width: 1366px;
+  }
   .skewed-line {
     width: 23px;
     height: 26px;
@@ -1685,17 +1759,17 @@ a:hover {
     background-image: -webkit-gradient(linear, left top, right top, from(#4b6cb7), to(#182848));
     background-image: linear-gradient(to right, #4b6cb7, #182848);
   }
-  header .header_container {
+  header .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  header .logo-image {
+  header .header-container .logo-image {
     width: 176px;
     height: 29px;
     margin: 25px 0 0 30px;
   }
-  header .menu-container {
+  header .header-container .menu-container {
     position: relative;
     height: auto;
     top: 0;
@@ -1714,7 +1788,7 @@ a:hover {
     -webkit-transition: 0s;
     transition: 0s;
   }
-  header .menu-container .menu-wrapper .menu-ja {
+  header .header-container .menu-container .menu-wrapper .menu-ja {
     font-family: "Noto Sans JP", sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -1724,7 +1798,7 @@ a:hover {
     margin-bottom: 3px;
     margin-top: 0px;
   }
-  header .menu-container .menu-wrapper .menu-en {
+  header .header-container .menu-container .menu-wrapper .menu-en {
     font-family: "Lato", sans-serif;
     font-size: 10px;
     line-height: 1;
@@ -1810,6 +1884,69 @@ a:hover {
   }
   #top .news-container #news-head {
     margin: 0 60px 0 41px;
+  }
+  section {
+    margin-top: 160px;
+  }
+  section .content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  section .content-title .content-en {
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  }
+  section .content-title .content-ja {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4b6cb7;
+  }
+  section .skewed-line {
+    border-color: #4b6cb7;
+  }
+  section h2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+    line-height: 48px;
+    margin-top: 25px;
+  }
+  section p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #191919;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 42px;
   }
 }
 /*# sourceMappingURL=style.css.map */
