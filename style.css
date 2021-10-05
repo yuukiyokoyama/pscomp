@@ -1632,4 +1632,54 @@ a:hover {
     color: #ffffff;
   }
 }
+
+/* pc */
+@media screen and (min-width: 1024px) {
+  .sp-only {
+    display: none !important;
+  }
+  .pc-only {
+    display: block;
+  }
+  .width-restriction {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .width-restriction-inside {
+    max-width: 1016px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    text-align: center;
+  }
+  .skewed-line {
+    width: 23px;
+    height: 26px;
+    margin: 0 0 5px 20px;
+    border-left: solid 1px white;
+    -webkit-transform: skew(-41.5deg);
+            transform: skew(-41.5deg);
+  }
+  a .link-button {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 24px 42px 24px 40px;
+    -webkit-box-shadow: 0px 2px 4px 0 rgba(24, 40, 72, 0.46);
+            box-shadow: 0px 2px 4px 0 rgba(24, 40, 72, 0.46);
+    background-color: #4b6cb7;
+    width: 256px;
+    height: 64px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
 /*# sourceMappingURL=style.css.map */

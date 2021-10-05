@@ -1712,24 +1712,4 @@ a:hover {
         border-left: solid 1px white;
         transform: skew(-41.50deg);
     }
-
-    a {
-        .link-button{
-            font-family: $ja-font;
-            font-size: 16px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1;
-            letter-spacing: normal;
-            text-align: left;
-            color: #ffffff;
-            padding: 24px 42px 24px 40px;
-            box-shadow: 0px 2px 4px 0 rgba(24, 40, 72, 0.46);
-            background-color: #4b6cb7;
-            width: 256px;
-            height: 64px;
-            box-sizing: border-box;
-        }
-    }
 }
