@@ -1980,5 +1980,37 @@ a:hover {
   #about .about-container .link-button {
     margin-left: 0;
   }
+  #works {
+    padding-bottom: 0;
+  }
+  #works #works-bg-white {
+    left: 0;
+    width: 100%;
+  }
+  #works .works-description .content-title {
+    padding-top: 0;
+  }
+  #works .works-description h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  #works .works-description p {
+    text-align: center;
+  }
+  #works .works-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #works .works-container .works-wrapper:nth-child(odd) {
+    margin-left: auto;
+  }
+  #works .works-container .works-wrapper:nth-child(even) {
+    margin-right: auto;
+  }
+  #works .works-container .works-wrapper {
+    margin: 0 20px 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
