@@ -2010,29 +2010,27 @@ a:hover {
         }
     }
 
-    #services{
-        .services-bg{
-            height: calc(100% - 80px);
+    #services {
+        .services-bg {
+            height: calc(100% - 80%);
         }
-        #services-container{
+
+        #services-container {
             flex-direction: row;
             justify-content: center;
-            #services-image{
+
+            #services-image {
                 max-width: 620px;
                 max-height: 424px;
                 margin-top: 40px;
                 margin-right: 0;
             }
-            #services-content{
+
+            #services-content {
                 max-width: 512px;
                 margin-top: 40px;
                 margin-left: 48px;
             }
-            .link-button{
-                margin-left: 0;
-            }
         }
     }
-
-    
 }

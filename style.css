@@ -1948,5 +1948,31 @@ a:hover {
     margin-top: 16px;
     margin-bottom: 42px;
   }
+  #services .services-bg {
+    height: calc(100% - 80px);
+  }
+  #services #services-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #services #services-container #services-image {
+    max-width: 620px;
+    max-height: 424px;
+    margin-top: 40px;
+    margin-right: 0;
+  }
+  #services #services-container #services-content {
+    max-width: 512px;
+    margin-top: 40px;
+    margin-left: 48px;
+  }
+  #services #services-container .link-button {
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -2034,5 +2034,33 @@ a:hover {
         }
     }
 
-    
+    #about {
+        .about-container {
+            margin-left: 0;
+
+            .link-button {
+                margin-left: 0;
+            }
+        }
+    }
+
+    #works {
+        padding-bottom: 0;
+        
+        #works-bg-white {
+            left: 0;
+            width: 100%;
+        }
+
+        .works-description {
+            .content-title {
+                padding-top: 0;
+            }
+
+            h2 {
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+    }
 }

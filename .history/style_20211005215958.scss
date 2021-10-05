@@ -2034,5 +2034,13 @@ a:hover {
         }
     }
 
-    
+    #about {
+        .about-container {
+            margin-left: 0;
+
+            .link-button {
+                margin-left: 0;
+            }
+        }
+    }
 }
