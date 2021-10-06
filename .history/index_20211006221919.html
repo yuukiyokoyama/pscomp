@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0036)https://techmi.website/staging/snzk/ -->
 <html lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- CSS、スクリプト -->
-    <link
-      rel="stylesheet"
-      href="style.css"
-      media="screen"
-    />
-    <script src="./株式会社 園崎組_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
-      src="./株式会社 園崎組_files/b8b46f4330.js"
+      src="https://kit.fontawesome.com/b8b46f4330.js"
       crossorigin="anonymous"
     ></script>
     <style media="all" id="fa-v4-font-face">
@@ -6495,13 +6490,19 @@
         font-weight: 900;
       }
     </style>
-    <script src="./株式会社 園崎組_files/jquery.binarytransport.js"></script>
+    <script src="./scripts/jquery.binarytransport.js"></script>
 
     <!-- フォント -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-    <link href="./株式会社 園崎組_files/css2" rel="stylesheet" />
-    <link href="./株式会社 園崎組_files/css2(1)" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- SEO -->
     <title>株式会社 園崎組</title>
     <meta
@@ -6583,7 +6584,7 @@
         class="top-image"
         style="
           opacity: 0.933535;
-          background-image: url('top-image-1-sp.png');
+          background-image: url('./images/top-image-1-sp.png');
         "
       ></div>
       <div class="width-restriction-inside">
@@ -6630,7 +6631,7 @@
       <div class="width-restriction">
         <div id="services-container">
           <img
-            src="image-services.jpg"
+            src="images/image-services.jpg"
             alt="園崎組の事業"
             id="services-image"
           />
@@ -6780,7 +6781,7 @@
               class="sp-only"
             />
             <img
-              src="images/image-recruit-1jpg"
+              src="images/image-recruit-1.jpg"
               alt="園崎組を知る"
               class="pc-only"
             />
@@ -6905,9 +6906,10 @@
         </div>
       </div>
     </footer>
+
     <script>
       //ナビゲーションメニュー内のリンククリックでナビゲーションメニューを閉じる処理
-      $(".menu-container .link-menu").on("click", function (event) {
+      $(".menu-container .link-menu").on("click", function (event){
         $(".nav-ham").trigger("click");
       });
       //メニュークリック時のスクロールアニメーション

@@ -336,12 +336,12 @@ a:hover {
     width: 125px;
     height: 26px;
     margin: 15px 20px;
-    background-image: url("logo-w-2.svg");
+    background-image: url("../images/logo-w-2.svg");
     background-size: cover;
     background-repeat: no-repeat;
   }
   header .header-container .logo-image-white {
-    background-image: url("logo-w-2.svg") !important;
+    background-image: url("../images/logo-w-2.svg") !important;
   }
   header .header-container .menu-container {
     position: fixed;
