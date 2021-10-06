@@ -7081,24 +7081,6 @@
         const spinner = document.getElementById("loading");
         spinner.classList.add("loaded");
       };
-
-      //メニュー出現
-      $(function () {
-        $(window).on("scroll", function () {
-          if ($(this).scrollTop() > $("#services").offset().top - 300) {
-            $("header").addClass("header-fixed");
-          } else {
-            $("header").removeClass("header-fixed");
-          }
-        });
-        $(window).on("load", function () {
-          if ($(this).scrollTop() > $("#services").offset().top - 300) {
-            $("header").addClass("header-fixed");
-          } else {
-            $("header").removeClass("header-fixed");
-          }
-        });
-      });
     </script>
   </body>
 </html>
