@@ -6913,12 +6913,10 @@
         $(".nav-ham").trigger("click");
       });
       //メニュークリック時のスクロールアニメーション
-      $(".link-menu").click(function () {
+      $("link-menu").click(function () {
         let link = $(this).data("to");
         let position = $(link).offset().top - 130;
-        let speed = 400;
-        $("html,body").animate({ scrollTop: position }, speed);
-      });
+      })
     </script>
   </body>
 </html>
